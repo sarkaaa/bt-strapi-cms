@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_availability_availability_cars",
+  "info": {
+    "displayName": "availability_car",
+    "icon": "car"
+  },
+  "options": {},
+  "attributes": {
+    "parking1": {
+      "type": "string"
+    },
+    "parking2": {
+      "type": "string"
+    },
+    "parking3": {
+      "type": "string"
+    }
+  }
+}

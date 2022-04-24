@@ -1,0 +1,70 @@
+{
+  "collectionName": "components_coords_coords",
+  "info": {
+    "displayName": "coords",
+    "icon": "map-marker-alt"
+  },
+  "options": {},
+  "attributes": {
+    "lat1": {
+      "type": "float"
+    },
+    "lat2": {
+      "type": "float"
+    },
+    "lat3": {
+      "type": "float"
+    },
+    "lat4": {
+      "type": "float"
+    },
+    "lat5": {
+      "type": "float"
+    },
+    "lat6": {
+      "type": "float"
+    },
+    "lat7": {
+      "type": "float"
+    },
+    "lat8": {
+      "type": "float"
+    },
+    "lat9": {
+      "type": "float"
+    },
+    "lat10": {
+      "type": "float"
+    },
+    "lng1": {
+      "type": "float"
+    },
+    "lng2": {
+      "type": "float"
+    },
+    "lng3": {
+      "type": "float"
+    },
+    "lng4": {
+      "type": "float"
+    },
+    "lng5": {
+      "type": "float"
+    },
+    "lng6": {
+      "type": "float"
+    },
+    "lng7": {
+      "type": "float"
+    },
+    "lng8": {
+      "type": "float"
+    },
+    "lng9": {
+      "type": "float"
+    },
+    "lng10": {
+      "type": "float"
+    }
+  }
+}

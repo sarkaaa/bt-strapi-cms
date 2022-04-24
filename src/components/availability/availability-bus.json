@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_availability_availability_buses",
+  "info": {
+    "displayName": "availability_bus",
+    "icon": "bus-alt"
+  },
+  "options": {},
+  "attributes": {
+    "stop1": {
+      "type": "string"
+    },
+    "stop2": {
+      "type": "string"
+    },
+    "stop3": {
+      "type": "string"
+    }
+  }
+}

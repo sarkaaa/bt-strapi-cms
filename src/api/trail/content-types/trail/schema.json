@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trails",
+  "info": {
+    "singularName": "trail",
+    "pluralName": "trails",
+    "displayName": "Trails",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "cover_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "photos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "criterion": {
+      "type": "enumeration",
+      "enum": [
+        "fast",
+        "short",
+        "bike1",
+        "bike2",
+        "bike3",
+        "turist1",
+        "turist2"
+      ],
+      "default": "turist1",
+      "required": true
+    },
+    "trail_type": {
+      "type": "enumeration",
+      "enum": [
+        "aa",
+        "ab"
+      ],
+      "required": true
+    },
+    "bus": {
+      "type": "component",
+      "repeatable": false,
+      "component": "availability.availability-bus"
+    },
+    "car": {
+      "type": "component",
+      "repeatable": false,
+      "component": "availability.availability-car"
+    },
+    "train": {
+      "type": "component",
+      "repeatable": false,
+      "component": "availability.availability-train"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "coords": {
+      "type": "component",
+      "repeatable": false,
+      "component": "coords.coords"
+    }
+  }
+}

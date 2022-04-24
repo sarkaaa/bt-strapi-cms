@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_availability_availability_trains",
+  "info": {
+    "displayName": "availability_train",
+    "icon": "train"
+  },
+  "options": {},
+  "attributes": {
+    "station1": {
+      "type": "string"
+    },
+    "station2": {
+      "type": "string"
+    },
+    "station3": {
+      "type": "string"
+    }
+  }
+}
