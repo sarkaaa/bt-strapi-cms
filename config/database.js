@@ -35,9 +35,7 @@ const productionConnections = (env) => {
         },
       },
       options: {
-        ssl: {
-          rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false), // For self-signed certificates
-        },
+        ssl: env.bool('DATABASE_SSL', false),
       },
     },
   };
