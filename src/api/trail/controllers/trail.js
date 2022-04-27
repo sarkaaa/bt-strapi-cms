@@ -1,9 +1,10 @@
-'use strict';
+"use strict";
 
 /**
- *  trail controller
+ *  homepage controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+const schema = require("../content-types/trail/schema.json");
+const createPopulatedController = require("../../../helpers/populate");
 
-module.exports = createCoreController('api::trail.trail');
+module.exports = createPopulatedController("api::trail.trail", schema);
