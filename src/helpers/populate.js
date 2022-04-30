@@ -13,7 +13,7 @@ function populateAttribute({ components }) {
 const getPopulateFromSchema = function (schema) {
   return Object.keys(schema.attributes).reduce((currentValue, current) => {
     const attribute = schema.attributes[current];
-    if (!["dynamiczone", "component"].includes(attribute.type)) {
+    if (!["dynamiczone", "component", "media"].includes(attribute.type)) {
       return currentValue;
     }
     return {
